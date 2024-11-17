@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Button, Container, Row } from 'react-bootstrap';
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -14,18 +14,18 @@ const LandingPage = () => {
             </div>
             <div className="buttonContainer">
               <a href="/login">
-                <button size="lg" className="landingbutton">
+                <Button size="lg" className="landingbutton">
                   Login
-                </button>
+                </Button>
               </a>
               <a href="/register">
-                <button
+                <Button
                   size="lg"
                   className="landingbutton"
                   varient="outline-primary"
                 >
                   SignUp
-                </button>
+                </Button>
               </a>
             </div>
           </div>
